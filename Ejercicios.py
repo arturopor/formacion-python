@@ -49,6 +49,7 @@ for registro in TMP:
     # print(TMP[registro][0])
     dia = TMP[registro][0]
     print("Dia ",dia)
+
     """
     if dia in totales.keys():
         totales[dia] = totales[dia] + 1
@@ -56,6 +57,7 @@ for registro in TMP:
         totales[dia] = 1
     """
     totales[dia] = totales.get(dia,0) + 1
+
 print("Totales ",totales)
 
 TestDiccionarios()
